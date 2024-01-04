@@ -3,10 +3,6 @@
  * These routes do not require authentication
  * @type {string[]}
  */
-
-
-
-
 /*
 *
 **  Bug- 2FA retest doesn't work, and verification
