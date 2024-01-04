@@ -12,6 +12,7 @@ const page = async () => {
     const logout = () => {
       logout()
     }
+    
   return (
     <>
       <div>
@@ -21,7 +22,7 @@ const page = async () => {
         "use server"
         await signOut()
       }}>
-      <button type="submit" onClick={logout}>
+      <button type="submit">
         signOut
       </button>
       </form>
